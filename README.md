@@ -101,14 +101,11 @@ Statistics and Computer Science.
 <br>
 <br>
 
-<video width="800" height="500" controls>
-      <source src="https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/colab_video.mp4?raw=true" type="video/mp4">
-</video>
  
-</font>
-</center> 
-
-
 https://user-images.githubusercontent.com/89276465/182767576-72aaed30-836c-4441-91d2-050a67af447e.mp4
 
+<b>Figure 7: </b>This video represents the collaboration network among different fields through the last 31 years. The width of the line connecting two nodes is proportional to relative collaboraive strength between those two fields.
+
+</font>
+</center> 
 
