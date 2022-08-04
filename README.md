@@ -4,7 +4,7 @@
 ---
 <center> <h1><b>Summary </b></h1> </center>
 
-<font size="+1"> We aim to visualise the current state of collaborations between the Texas A&M Departments of <i> Mathematics, Statistics and Computer Science, Physics, Chemistry and Biology </i> and identify sub-fields of each where these collaborations occur. Cornell University’s arXiv is an open-access archive of scholarly articles from each of these three areas which classifies articles by a refined system of tags. We gathered arXiv submissions published by Texas A&M University authors and grouped articles according to their corresponding tags. This data was then visualised to show connections between sub-fields of each field and which sub-fields may benefit from future collaborations with neighbouring areas. </font>
+<font size="+1"> We aim to visualise the current state of collaborations between the Texas A&M Departments of <i> Mathematics, Statistics, Computer Science, Physics, Chemistry and Biology </i> and identify sub-fields of each where these collaborations occur. Cornell University’s arXiv is an open-access archive of scholarly articles from each of these three areas which classifies articles by a refined system of tags. We gathered arXiv submissions published by Texas A&M University authors and grouped articles according to their corresponding tags. This data was then visualised to show connections between sub-fields of each field and which sub-fields may benefit from future collaborations with neighbouring areas. </font>
 
 ---
 
@@ -141,6 +141,6 @@ Initially, we wanted to collect data for more scientific fields and include Phys
 
 </font>
 
-<b><font size="+3">**Website:** </font></b> <font size="+1"> Please check our website here: </font> https://arpan-pal.github.io/ds_comp_22/index.html
+<b><font size="+3">**Website:** </font></b> <font size="+1"> Please check our project website here: </font> https://arpan-pal.github.io/ds_comp_22/index.html
 
 <b><font size="+2">**Contact:** </font></b> [Arpan Pal](mailto:arpan@tamu.edu?subject=[GitHub]%20Source%20Han%20Sans)
