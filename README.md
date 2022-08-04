@@ -55,25 +55,39 @@ Statistics and Computer Science.
 <br>
 <br>
 
-<iframe src="https://app.vosviewer.com/?json=https://www.dropbox.com/s/az3vmucpzyffr2t/VOSviewer_4778188541815183668.json?dl=1&simple_ui=true&dark_ui=true" width = "800" height = "520"></iframe>
+Please click on the picture to explore the interactive network
+
+<a href="https://app.vosviewer.com/?json=https://www.dropbox.com/s/az3vmucpzyffr2t/VOSviewer_4778188541815183668.json?dl=1&simple_ui=true&dark_ui=true">
+<img src=https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/VOSviewer-screenshot_1.png?raw=true" width = "800" height = "520">
+
+</img>
+</a>
 
 
-<b>Figure 2: </b>Collaboration network among different subfields of Mathematics, Statistics and Computer Science. The link width is proportional to the amount of collaborative publications between those two areas.
+<b>Figure 2: </b>Collaboration network among different subfields of Mathematics, Statistics and Computer Science. The link width is proportional to the amount of collaborative publications between those two areas. 
+
 
 <br>
 <br>
 <br>
 
-<iframe src="https://app.vosviewer.com/?json=https://www.dropbox.com/s/az3vmucpzyffr2t/VOSviewer_4778188541815183668.json?dl=1&simple_ui=true&item_color=2&score_colors=Rainbow&dark_ui=true" width = "800" height = "520"></iframe>
+Please click on the picture to explore the interactive network
+
+<a href="https://app.vosviewer.com/?json=https://www.dropbox.com/s/az3vmucpzyffr2t/VOSviewer_4778188541815183668.json?dl=1&simple_ui=true&item_color=2&score_colors=Rainbow&dark_ui=true">
+<img src=https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/VOSviewer-screenshot_2.png?raw=true" width = "800" height = "520">
+</img>
+</a>
 
 <b>Figure 3:</b> This picture above visualises the collaboration among different subfields of Mathematics, Statistics and Computer Science and also colours them depending on time. There are three clusters of areas from the departments of Mathematics, Statistics and Computer Science. An interesting observation about this data is that the cluster for the department of Mathematics is larger and has more publications compared to other two departments, but most of the collaborations are among different subfields of Mathematics. One other thing we notice is that the Mathematics department has some popular and relatively old sub areas like Combinatorics, Algebraic Geometry, Functional Analysis etc. but the Computer Science department has the areas such as Machine Learning and AI, which are also popular but relatively new. Another interesting observation we made is that emerging popular areas such as Machine Learning and AI have comparatively more collaborations with different subfields and other fields.
 
+
+
 <br>
 <br>
 <br>
 <br>
 
-<img src="https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/math_cs_colab.png?raw=true" width = "800" height = "520"></iframe>
+<img src="https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/math_cs_colab.png?raw=true" width = "800" height = "520"></img>
 
 <b>Figure 4:</b> This bar graph represents the inter departmental collaborations between Mathematics and Computer Science over a period of about the last 30 years. We would like to point out a  few interesting observations that we made from this. The amount of collaborative work between Mathematics and Computer Science has an overall increasing trend. The number of collaborations reached a sort of plateau around 2011-2016 but it saw a strong increase in around 2017 onwards. This, we believe, is due to the popularity of emerging fields like Machine Learning and AI.
 
@@ -83,7 +97,7 @@ Statistics and Computer Science.
 <br>
 <br>
 
-<img src="https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/math_stat.png?raw=true" width = "800" height = "520"></iframe>
+<img src="https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/math_stat.png?raw=true" width = "800" height = "520"></img>
 
 <b>Figure 5:</b> This bar graph represents the inter departmental collaborations between Mathematics and Statistics over a period of about the last 30 years. As the broad field of data science incorporates elements of statistics and several subfields of applied mathematics, this graph may show a correlation with the rise in popularity of data science itself. Since, in the past decade, most Fortune 100 companies have taken an interest in, if not invested heavily into, data mining and analysis for the purposes of strategy refinement (among others), this rise may be a response to the increased demand for employees who specialise in such fields.
 
@@ -92,7 +106,7 @@ Statistics and Computer Science.
 <br>
 <br>
 
-<img src="https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/stat_cs_colab.png?raw=true" width = "800" height = "520"></iframe>
+<img src="https://github.com/arpan-pal/TAMIDSBeanQueens/blob/main/stat_cs_colab.png?raw=true" width = "800" height = "520"></img>
 
 <b>Figure 6:</b> This bar graph here represents the inter departmental collaborations between Statistics and Computer Science over a period of about the last 30 years. One interesting thing we observe from this graph is that Statistics and Computer Science did not used to have too many collaborative works but the amount of collaborations between CS and Stats have started to grow in recent times. One reason for this we think is that the Statistics department here is comparatively new and have started to expand only recently and another reason we think is the popularity of ML and AI. These two research areas have become increasingly popular recently and it is around the same time when the collaborations between CS and Stats started picking up.
 
@@ -109,3 +123,24 @@ https://user-images.githubusercontent.com/89276465/182767576-72aaed30-836c-4441-
 </font>
 </center> 
 
+---
+
+<center> <h1><b>Conclusion and Recommendations </b></h1> </center>
+
+<font size="+1"> We saw from the data that mathematicians at Texas A&M University are collaborating more among subfields than with collaborators in Computer Science and Statistics. Moreover, we see that collaborations with Computer Science and Statistics have increased over the past few years, especially with the more newly emerging fields such as machine learning. Even so, we can identify that some subfields of mathematics such as Numerical Analysis are more active collaborators with other fields. 
+
+<br>
+<br>
+
+During the collection of our datasets, we noticed that arXiv does not have “institution name” as one of the required fields when submitting preprints, so we had to go through a very time consuming process to filter out researchers at Texas A&M University. We would recommend APIs and scholarly databases to include institution names. Moreover, the arXiv API has several bugs that required us to include a mandatory sleep time between two consecutive calls, which made collecting the data slow. We didn’t use an API for the Dimensions data as it was downloadable, but it didn’t keep track of subfields.
+
+<br>
+<br>
+
+Initially, we wanted to collect data for more scientific fields and include Physics, Biology, Material Sciences, et cetera, however due to the slow speed of our data collection and filtering process, we had to scrap those plans. We must also note that many of the papers we found on Dimensions did not have corresponding entries on arXiv. In particular, arXiv seems more popular in Mathematics than it does in other disciplines, and older papers show up less often on arXiv as well. This means that we cannot reliably conclude which fields of Mathematics have more or less collaborations with non-Mathematical fields as our collaboration data is incomplete. For future work, we would like to explore APIs and databases that have field labels like arXiv, but also allow for a more smooth data collection so we can visualise our networks better.
+
+</font>
+
+<b><font size="+3">**Website:** </font></b> <font size="+1"> Please check our website here: </font> https://arpan-pal.github.io/ds_comp_22/index.html
+
+<b><font size="+2">**Contact:** </font></b> [Arpan Pal](mailto:arpan@tamu.edu?subject=[GitHub]%20Source%20Han%20Sans)
